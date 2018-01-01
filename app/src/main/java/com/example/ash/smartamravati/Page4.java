@@ -30,8 +30,7 @@ public class Page4 extends AppCompatActivity {
     ImageView imageView;
     EditText editText1;
     EditText editText2;
-    EditText editText3;
-    EditText editText4;
+
 
     String profileImageUrl;
     Uri uri;
