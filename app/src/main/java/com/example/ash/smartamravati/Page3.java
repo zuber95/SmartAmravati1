@@ -26,8 +26,6 @@ public TextView fgp;
     private EditText editTextEmail;
     private EditText editTextPassword;
     private FirebaseAuth firebaseAuth;
-
-    //progress dialog
     private ProgressDialog progressDialog;
 
 
@@ -109,10 +107,16 @@ public TextView fgp;
                     //start the profile activity
                     finish();
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                    if (user.isEmailVerified()== false)
-                    startActivity(new Intent(getApplicationContext(), VerificationActivity.class));
-                    else
+                    if (user.isEmailVerified()== true){
                         startActivity(new Intent(getApplicationContext(), Page7.class));
+                    }
+
+                    else{
+                        startActivity(new Intent(getApplicationContext(), VerificationActivity.class));
+
+
+                    }
+
                 }else {
                     Toast.makeText(Page3.this,"Login failed....",Toast.LENGTH_SHORT).show();
                 }
@@ -127,7 +131,10 @@ public TextView fgp;
 
         if(view == buttonSignIn){
 
+
             userLogin();
+
+
 
         }
     }

@@ -58,6 +58,7 @@ public class Page6 extends AppCompatActivity implements View.OnClickListener {
         }
         if (view==textLogin)
         {
+            finish();
             Intent toy=new Intent(Page6.this,Page3.class);
             startActivity(toy);
         }
@@ -93,6 +94,7 @@ public class Page6 extends AppCompatActivity implements View.OnClickListener {
                             //display some message here
                             Toast.makeText(Page6.this,"Successfully registered",Toast.LENGTH_LONG).show();
                             mAuth.signOut();
+
                         }else{
                             //display some message here
                             Toast.makeText(Page6.this,"Registration Error",Toast.LENGTH_LONG).show();

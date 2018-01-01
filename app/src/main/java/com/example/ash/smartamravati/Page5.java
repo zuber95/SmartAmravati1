@@ -1,5 +1,6 @@
 package com.example.ash.smartamravati;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -45,6 +46,9 @@ public class Page5 extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(Page5.this, "Check email to reset your password!", Toast.LENGTH_SHORT).show();
+                                    finish();
+                                    startActivity(new Intent(getApplicationContext(), Page3.class));
+
                                 } else {
                                     Toast.makeText(Page5.this, "Fail to send reset password email!", Toast.LENGTH_SHORT).show();
                                 }
