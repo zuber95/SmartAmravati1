@@ -1,4 +1,4 @@
-package com.example.ash.smartamravati;
+package com.example.ash.smartamravati.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.ash.smartamravati.R;
 
 public class Page2 extends AppCompatActivity {
 ImageView imageView;
