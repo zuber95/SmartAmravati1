@@ -36,7 +36,8 @@
         <activity android:name=".activity.DepartMenu" />
         <activity android:name=".Noc" />
         <activity android:name=".NocFinal" />
-        <activity android:name=".activity.Services"></activity>
+        <activity android:name=".activity.Services" />
+        <activity android:name=".activity.Nocprevious"></activity>
     </application>
 
 </manifest>
