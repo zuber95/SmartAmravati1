@@ -41,7 +41,8 @@
         <activity android:name=".activity.NocNext" />
         <activity android:name=".activity.BirthCertificate" />
         <activity android:name=".activity.DeathCertificate" />
-        <activity android:name=".activity.BirthRegistration"></activity>
+        <activity android:name=".activity.BirthRegistration" />
+        <activity android:name=".activity.BirthRegistrationNext"></activity>
     </application>
 
 </manifest>

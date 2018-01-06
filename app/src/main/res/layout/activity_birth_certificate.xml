@@ -16,7 +16,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="number"
+
         android:hint="Year"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +34,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Registration No"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
