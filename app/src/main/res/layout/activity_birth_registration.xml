@@ -60,7 +60,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="150dp"
                 android:hint="Birth Date"
-                android:inputType="number"
+
                 android:textSize="25sp" />
             <EditText
 
@@ -102,16 +102,16 @@
                 android:layout_marginTop="350dp"
                 android:hint="Birth Place"
                 android:textSize="25sp" />
+
             <Button
+                android:id="@+id/Next"
                 android:layout_width="253dp"
                 android:layout_height="55dp"
                 android:layout_marginLeft="65dp"
                 android:layout_marginTop="420dp"
                 android:background="@color/colorPrimary"
                 android:text="Next"
-                android:textSize="25sp"
-
-                />
+                android:textSize="25sp" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
