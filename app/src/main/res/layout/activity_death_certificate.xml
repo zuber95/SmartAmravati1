@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.ash.smartamravati.activity.DeathCertificate">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Death Certificate"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"/>
     <EditText
         android:id="@+id/editText"
         android:layout_width="276dp"

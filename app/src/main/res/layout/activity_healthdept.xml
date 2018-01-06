@@ -29,13 +29,15 @@
 
             <ImageView
 
-                android:layout_width="100dp"
+                android:id="@+id/imageView"
 
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/health" />
 
             <TextView
 
+                android:id="@+id/text12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
