@@ -36,7 +36,6 @@
         <activity android:name=".activity.DepartMenu" />
         <activity android:name=".Noc" />
         <activity android:name=".NocFinal" />
-        <activity android:name=".activity.Services" />
         <activity android:name=".activity.Nocprevious" />
         <activity android:name=".activity.NocNext" />
         <activity android:name=".activity.BirthCertificate" />
@@ -44,7 +43,8 @@
         <activity android:name=".activity.BirthRegistration" />
         <activity android:name=".activity.BirthRegistrationNext" />
         <activity android:name=".activity.DeathRegistration" />
-        <activity android:name=".activity.DeathRegistrationNext"></activity>
+        <activity android:name=".activity.DeathRegistrationNext" />
+        <activity android:name=".activity.AllService"></activity>
     </application>
 
 </manifest>
