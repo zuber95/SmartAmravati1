@@ -38,7 +38,8 @@
         <activity android:name=".NocFinal" />
         <activity android:name=".activity.Services" />
         <activity android:name=".activity.Nocprevious" />
-        <activity android:name=".activity.NocNext"></activity>
+        <activity android:name=".activity.NocNext" />
+        <activity android:name=".activity.BirthCertificate"></activity>
     </application>
 
 </manifest>
