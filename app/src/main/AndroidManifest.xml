@@ -43,7 +43,8 @@
         <activity android:name=".activity.DeathCertificate" />
         <activity android:name=".activity.BirthRegistration" />
         <activity android:name=".activity.BirthRegistrationNext" />
-        <activity android:name=".activity.DeathRegistration"></activity>
+        <activity android:name=".activity.DeathRegistration" />
+        <activity android:name=".activity.DeathRegistrationNext"></activity>
     </application>
 
 </manifest>
