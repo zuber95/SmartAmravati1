@@ -9,18 +9,18 @@ import android.widget.Button;
 import com.example.ash.smartamravati.R;
 
 public class DeathRegistration extends AppCompatActivity implements View.OnClickListener {
-public Button btn;
+public Button Next;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_death_registration);
-        btn=(Button)findViewById(R.id.btn);
-        btn.setOnClickListener(this);
+        Next=(Button)findViewById(R.id.Next);
+        Next.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
-        if(view==btn)
+        if(view==Next)
         {
             Intent tp1=new Intent(DeathRegistration.this,DeathRegistrationNext.class);
             startActivity(tp1);

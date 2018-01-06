@@ -5,8 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="10"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor"
     tools:context="com.example.ash.smartamravati.activity.Services">
 
-
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></LinearLayout>
 </LinearLayout>
