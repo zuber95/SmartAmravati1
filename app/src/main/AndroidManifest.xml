@@ -45,7 +45,8 @@
         <activity android:name=".activity.DeathRegistration" />
         <activity android:name=".activity.DeathRegistrationNext" />
         <activity android:name=".activity.AllService" />
-        <activity android:name=".activity.Healthdept"></activity>
+        <activity android:name=".activity.Healthdept" />
+        <activity android:name=".activity.FireDept"></activity>
     </application>
 
 </manifest>

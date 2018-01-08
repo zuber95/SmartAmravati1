@@ -33,7 +33,7 @@
 
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/health" />
+                android:src="@drawable/ic_health1" />
 
             <TextView
 
@@ -79,7 +79,7 @@
                     android:layout_width="100dp"
 
                     android:layout_height="100dp"
-                    android:src="@drawable/health" />
+                    android:src="@drawable/ic_health1" />
 
                 <TextView
                     android:id="@+id/text"

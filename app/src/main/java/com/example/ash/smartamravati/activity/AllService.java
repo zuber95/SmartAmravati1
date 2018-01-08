@@ -13,6 +13,7 @@ import com.example.ash.smartamravati.R;
 public class AllService extends AppCompatActivity implements View.OnClickListener{
    public ImageView image;
    public TextView text;
+    public TextView text13;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,8 @@ public class AllService extends AppCompatActivity implements View.OnClickListene
         image.setOnClickListener(this);
         text=(TextView)findViewById(R.id.text);
         text.setOnClickListener(this);
+        text13=(TextView)findViewById(R.id.text13);
+        text13.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +37,11 @@ public class AllService extends AppCompatActivity implements View.OnClickListene
         {
             Intent tp6= new Intent(AllService.this,Healthdept.class);
             startActivity(tp6);
+        }
+        if(view==text13)
+        {
+            Intent tp7= new Intent(AllService.this,FireDept.class);
+            startActivity(tp7);
         }
 
     }

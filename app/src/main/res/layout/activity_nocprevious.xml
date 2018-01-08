@@ -72,6 +72,7 @@
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="220dp"
                 android:text="Female"
