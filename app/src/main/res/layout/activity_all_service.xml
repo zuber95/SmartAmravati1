@@ -139,7 +139,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="Health Department"
+                    android:text="Assesement Department"
                     android:textSize="18sp"
                     android:textAlignment="center"
                     android:layout_marginTop="10dp"/>
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="Health Department"
+                    android:text="Marriage Department"
                     android:textSize="18sp"
                     android:textAlignment="center"
                     android:layout_marginTop="10dp"/>
@@ -208,7 +208,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="Health Department"
+                    android:text="Water       Department"
                     android:textSize="18sp"
                     android:textAlignment="center"
                     android:layout_marginTop="10dp"/>
