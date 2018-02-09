@@ -46,7 +46,20 @@
         <activity android:name=".activity.DeathRegistrationNext" />
         <activity android:name=".activity.AllService" />
         <activity android:name=".activity.Healthdept" />
-        <activity android:name=".activity.FireDept"></activity>
+        <activity android:name=".activity.FireDept" />
+        <activity android:name=".activity.TownPlanningdept" />
+        <activity android:name=".activity.MarriageCertificate" />
+        <activity android:name=".activity.MarriageRegistration" />
+        <activity android:name=".activity.MarriageRegNext" />
+        <activity android:name=".activity.WaterDepartment" />
+        <activity android:name=".activity.WaterDeptnext" />
+        <activity android:name=".activity.WaterDeptNext2" />
+        <activity android:name=".activity.WaterDeptNext3" />
+        <activity android:name=".activity.NocFinal1" />
+        <activity android:name=".activity.NocFinal2" />
+        <activity android:name=".activity.AssesmentDept" />
+        <activity android:name=".activity.AssesmentServices" />
+        <activity android:name=".activity.MarketLicence"></activity>
     </application>
 
 </manifest>

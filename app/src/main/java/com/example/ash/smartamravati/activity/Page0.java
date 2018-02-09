@@ -38,7 +38,7 @@ public class Page0 extends AppCompatActivity implements View.OnClickListener {
         }
         if (view==button4)
         {
-            Intent tp3=new Intent(Page0.this,Nocprevious.class);
+            Intent tp3=new Intent(Page0.this,AdminLogin.class);
             startActivity(tp3);
         }
 

@@ -177,14 +177,16 @@
                     android:layout_height="64dp"
 
                     android:src="@drawable/marriage"/>
+
                 <TextView
+                    android:id="@+id/text17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
                     android:text="Marriage Department"
-                    android:textSize="18sp"
                     android:textAlignment="center"
-                    android:layout_marginTop="10dp"/>
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -207,14 +209,16 @@
                     android:layout_height="64dp"
 
                     android:src="@drawable/ic_water1"/>
+
                 <TextView
+                    android:id="@+id/text15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
                     android:text="Water       Department"
-                    android:textSize="18sp"
                     android:textAlignment="center"
-                    android:layout_marginTop="10dp"/>
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

@@ -14,6 +14,8 @@ public class AllService extends AppCompatActivity implements View.OnClickListene
    public ImageView image;
    public TextView text;
     public TextView text13;
+    public TextView text15;
+    public TextView text17;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,10 @@ public class AllService extends AppCompatActivity implements View.OnClickListene
         text.setOnClickListener(this);
         text13=(TextView)findViewById(R.id.text13);
         text13.setOnClickListener(this);
+        text15=(TextView)findViewById(R.id.text15);
+        text15.setOnClickListener(this);
+        text17=(TextView)findViewById(R.id.text17);
+        text17.setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +48,16 @@ public class AllService extends AppCompatActivity implements View.OnClickListene
         {
             Intent tp7= new Intent(AllService.this,FireDept.class);
             startActivity(tp7);
+        }
+        if (view==text15)
+        {
+            Intent tp8=new Intent(AllService.this,WaterDepartment.class);
+            startActivity(tp8);
+        }
+        if (view==text17)
+        {
+            Intent tp9=new Intent(AllService.this,MarriageCertificate.class);
+            startActivity(tp9);
         }
 
     }
